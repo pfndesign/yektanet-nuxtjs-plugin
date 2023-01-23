@@ -1,6 +1,6 @@
-// eslint-disable-next-line no-unused-expressions
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-sequences */
 !(function (t, e, n) {
-  // eslint-disable-next-line no-unused-expressions, no-sequences
   ;(t.yektanetAnalyticsObject = n),
     (t[n] =
       t[n] ||
@@ -23,7 +23,6 @@
   s.dataset.analyticsobject = n
   s.async = 1
   s.type = 'text/javascript'
-  // eslint-disable-next-line no-unused-expressions
   s.src =
     'https://cdn.yektanet.com/rg_woebegone/scripts_v3/{ID}/rg.complete.js?v=' +
     r
