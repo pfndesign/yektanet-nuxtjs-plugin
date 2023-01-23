@@ -9,14 +9,9 @@
       }),
     (t[n].q = t[n].q || [])
   const a = new Date()
-  const r =
-    a.getFullYear().toString() +
-    '0' +
-    a.getMonth() +
-    '0' +
-    a.getDate() +
-    '0' +
-    a.getHours()
+  const r = `${a
+    .getFullYear()
+    .toString()}0${a.getMonth()}0${a.getDate()}0${a.getHours()}`
   const c = e.getElementsByTagName('script')[0]
   const s = e.createElement('script')
   s.id = 'ua-script-{ID}'
